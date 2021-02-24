@@ -1,0 +1,80 @@
+
+body{
+    font-family: "Lato";
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+}
+
+
+.contenedor__cuadrito{
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    max-width: 48rem;
+    max-height: 40em;
+    padding: 1%;
+}
+
+.contenedor__borde{
+    
+}
+
+.h1titulo{
+    margin: 0;
+    color: white;
+}
+
+.h3titulo{
+    margin: 0;
+    color: white;
+
+}
+
+
+.contenedor__info{
+    color: white;
+    padding-right: 5%;
+}
+
+.content{
+  display: flex;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.red__button{
+    background-color: red;
+    display: flex;
+    color: white;
+    max-width: 16rem;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+a{
+    margin-left: 8%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.contenedor__imagen{
+   
+}
